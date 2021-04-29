@@ -351,12 +351,19 @@ template {
 }
 
 .container {
-  color: blue;
-}
-
-.container {
   max-width: 1140px;
   margin-right: auto;
   margin-left: auto;
   padding: 0 20px;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }/*# sourceMappingURL=main.css.map */
